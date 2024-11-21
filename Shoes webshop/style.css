@@ -1,0 +1,27 @@
+img{
+    width: 300px;
+    height: auto; 
+}
+
+
+
+.text{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+img:hover{
+    transform: scale(1.10); transition: 0.5s ease;
+    cursor: pointer;
+    
+}
+
+
+.img-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
